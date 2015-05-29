@@ -1,0 +1,12 @@
+.girl {
+  width: 200px;
+  height: 235px;
+  margin: 2% auto;
+  background: url("https://s3-us-west-2.amazonaws.com/css-anim/girl_css.png");
+  animation: play .8s steps(3) infinite;
+
+}
+
+@keyframes play {
+   100% { background-position: -600px;}
+}
