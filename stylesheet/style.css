@@ -73,3 +73,10 @@ body {
 
 
 }
+
+@media only screen and (max-width: 1015px){
+  .girl {
+    margin: 345px 0 0 275px;
+  }
+
+}
