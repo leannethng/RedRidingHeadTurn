@@ -3,7 +3,7 @@ body {
 }
 
 .center {
-  margin: 5%;
+  margin: 3%;
 }
 
 .bg {
@@ -66,10 +66,6 @@ body {
   width: 1015px;
   height: 703px;
   mix-blend-mode: color-burn;
-  margin-bottom: 100px;
 
-}
-
-.blend {
 
 }
