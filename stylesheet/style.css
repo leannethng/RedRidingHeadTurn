@@ -14,7 +14,7 @@ body {
   margin-right:auto;
 
   width: 1015px;
-  height: 100%;
+  height: 661px;
   background: url("https://s3-us-west-2.amazonaws.com/css-anim/LRRH_v01_04_flattened.jpg")#000 no-repeat;
   background-position-y: 5px;
   background-position-x: 5px;
@@ -36,22 +36,26 @@ body {
   background: url("https://s3-us-west-2.amazonaws.com/css-anim/girl_css.png");
   -webkit-animation: play 2s steps(3) infinite;
           animation: play 2s steps(3) infinite;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
 
 
 }
 
 @-webkit-keyframes play {
-   0% { background-position: 0px;}
-   80% {background-position: 0px;}
-   100% { background-position: -600px;}
+  0% { background-position: 0;}
+  5% {background-position: 0;}
+
+  25% { background-position: -600px;}
+  100% { background-position: -600px;}
 }
 
 @keyframes play {
-   0% { background-position: 0px;}
-   80% {background-position: 0px;}
-   100% { background-position: -600px;}
+  0% { background-position: 0;}
+  5% {background-position: 0;}
+
+  25% { background-position: -600px;}
+  100% { background-position: -600px;}
 }
 
 .overlayer {
