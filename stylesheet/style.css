@@ -1,12 +1,40 @@
+body {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  background: url("https://s3-us-west-2.amazonaws.com/css-anim/LRRH_v01_04_flattened.jpg")#000 no-repeat;
+  background-position-y: 5px;
+  background-position-x: 5px;
+  background-size: 1015px;
+
+
+}
+
 .girl {
+  position: absolute;
+  z-index: 2;
+  display: inline-block;
   width: 200px;
   height: 235px;
-  margin: 2% auto;
+  margin: 340px 0 0 260px;
   background: url("https://s3-us-west-2.amazonaws.com/css-anim/girl_css.png");
-  animation: play .8s steps(3) infinite;
+  animation: play 2s steps(3) infinite;
+  animation-delay: 2s;
+
 
 }
 
 @keyframes play {
+   0% { background-position: 0px;}
+   80% {background-position: 0px;}
    100% { background-position: -600px;}
+}
+
+.overlayer {
+  position: relative;
+z-index: 4000;
+background: url("https://s3-us-west-2.amazonaws.com/css-anim/overlayer.png");
+background-blend-mode: overlay;
+width: 1015px;
+height: 750px;
 }
