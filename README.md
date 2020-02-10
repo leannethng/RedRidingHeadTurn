@@ -1,6 +1,8 @@
-# RedRidingHeadTurn
-* A test of CSS keyframe animation
-* Art and assets created in Photoshop 
+# Red Riding Head Turn CSS
 
-view at http://leannethng.github.io/RedRiding_HeadTurn.
+<img src="https://github.com/leannethng/RedRiding_HeadTurn/Girl-head-turn.gif" width='500'/>
 
+- A test of CSS keyframe animation
+- Art and assets created in Photoshop
+
+Viewable at http://leannethng.github.io/RedRiding_HeadTurn
